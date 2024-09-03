@@ -1,0 +1,23 @@
+gustavoArruda - camelCase
+gustavo_arruda - snake_case
+GustavoArruda - PascalCase
+gustavo-arruda - kebab-case
+
+Convenções para Javascript
+
+camelCase para variáveis, constantes, funções e métodos;
+PascalCase para classes.
+
+class ClienteBanco {  
+    constructor(primeiroNome, cpf) { 
+      this.primeiroNome = primeiroNome;
+      this.cpf = cpf;
+    }
+
+  exibirPrimeiroNome(){
+     console.log(this.primeiroNome);
+    }
+}
+
+  var clienteUm = new ClienteBanco('Maria', 150);
+  var clienteDois = new ClienteBanco('João', 70);

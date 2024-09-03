@@ -1,0 +1,1 @@
+Word Wrap on - para quebra de linha no vs code
